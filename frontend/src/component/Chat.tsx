@@ -8,7 +8,7 @@ type Message = {
   time: string;
 };
 
-const ChatApp: React.FC = () => {
+const Chat: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isSignedIn, setIsSignedIn] = useState(false);
@@ -122,4 +122,4 @@ const ChatApp: React.FC = () => {
   );
 };
 
-export default ChatApp;
+export default Chat;
